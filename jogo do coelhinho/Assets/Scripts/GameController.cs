@@ -32,7 +32,7 @@ public class GameController : MonoBehaviour
 
     public void RestartGame(string lvlName)
     {
-        SceneManager.LoadScene("lvlName");
+        SceneManager.LoadScene(lvlName);
     }
    
 }
