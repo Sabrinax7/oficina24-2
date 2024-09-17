@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
@@ -12,8 +14,9 @@ public class EfeitoDigitador : MonoBehaviour
     private string mensagemOriginal;
     public bool imprimindo;
     public float tempoEntreLetras = 0.08f;
+  
 
-    private void Aweke()
+    private void Awake()
     {
         TryGetComponent(out componenteTexto);
         TryGetComponent(out _audioSource);
@@ -40,7 +43,7 @@ public class EfeitoDigitador : MonoBehaviour
             imprimindo = true;
             StartCoroutine(LetraPorLetra(mensagem));
         }
-    }
+    }    
 
     IEnumerator LetraPorLetra(string mensagem)
     {
