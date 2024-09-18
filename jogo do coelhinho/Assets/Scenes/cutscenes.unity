@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: -154.52}
-  m_SizeDelta: {x: 426.55, y: 50}
+  m_AnchoredPosition: {x: 16, y: -143.65}
+  m_SizeDelta: {x: 782.25, y: 36.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3348860
 MonoBehaviour:
@@ -182,9 +182,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'blablablablabla
-
-'
+  m_text: "Em um reino esquecido, uma antiga profecia revela que apenas um escolhido
+    pode deter a escurid\xE3o crescente."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -211,8 +210,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 16.68
+  m_fontSizeBase: 16.68
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -388,7 +387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &160068998
 RectTransform:
   m_ObjectHideFlags: 0
@@ -428,7 +427,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab8d989e0b1d6a142b09bbb81ce48fb0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b27ef1bac7d7f4749b2046cff6b1cbe5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -465,7 +464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &266824416
 RectTransform:
   m_ObjectHideFlags: 0
@@ -482,8 +481,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: -154.52}
-  m_SizeDelta: {x: 426.55, y: 50}
+  m_AnchoredPosition: {x: 16, y: -150.48999}
+  m_SizeDelta: {x: 800.48, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &266824417
 MonoBehaviour:
@@ -615,9 +614,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'blablablablabla
-
-'
+  m_text: "No confronto final, descobrir\xE1 que a verdadeira for\xE7a vem da amizade
+    e da coragem interior."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -644,8 +642,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -934,6 +932,7 @@ RectTransform:
   - {fileID: 160068998}
   - {fileID: 266824416}
   - {fileID: 1180006741}
+  - {fileID: 1029003849}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -960,6 +959,22 @@ PlayableDirector:
     value: {fileID: 1180006740}
   - key: {fileID: -3410820916865136865, guid: ffd5d1eb3935754419113bf1c8a14add, type: 2}
     value: {fileID: 1180006745}
+  - key: {fileID: -8669772266639941182, guid: ffd5d1eb3935754419113bf1c8a14add, type: 2}
+    value: {fileID: 1482242335}
+  - key: {fileID: 1043772531846922702, guid: ffd5d1eb3935754419113bf1c8a14add, type: 2}
+    value: {fileID: 3348858}
+  - key: {fileID: 6713745161086807600, guid: ffd5d1eb3935754419113bf1c8a14add, type: 2}
+    value: {fileID: 644858909}
+  - key: {fileID: 6929388748893580528, guid: ffd5d1eb3935754419113bf1c8a14add, type: 2}
+    value: {fileID: 1894131586}
+  - key: {fileID: 4947401015017453550, guid: ffd5d1eb3935754419113bf1c8a14add, type: 2}
+    value: {fileID: 160068997}
+  - key: {fileID: -3559997664701778788, guid: ffd5d1eb3935754419113bf1c8a14add, type: 2}
+    value: {fileID: 266824415}
+  - key: {fileID: -2581325308129072577, guid: ffd5d1eb3935754419113bf1c8a14add, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -116071293819457028, guid: ffd5d1eb3935754419113bf1c8a14add, type: 2}
+    value: {fileID: 1029003847}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &624936308
@@ -1054,7 +1069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &644858910
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1094,7 +1109,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab8d989e0b1d6a142b09bbb81ce48fb0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76ab1ed42ed15fb44b57d1e8406dc6c6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1112,6 +1127,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644858909}
   m_CullTransparentMesh: 1
+--- !u!1 &1029003847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1029003849}
+  - component: {fileID: 1029003848}
+  m_Layer: 5
+  m_Name: Load
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1029003848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029003847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca83b4f53b711424fab1dd20c86d0c10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CenaParaCarregar: cutscenes
+--- !u!224 &1029003849
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029003847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 561749024}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1180006740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,7 +1470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1894131587
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1423,8 +1487,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: -154.52}
-  m_SizeDelta: {x: 426.55, y: 50}
+  m_AnchoredPosition: {x: 9, y: -150.49}
+  m_SizeDelta: {x: 729.97, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1894131588
 MonoBehaviour:
@@ -1556,9 +1620,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'blablablablabla
-
-'
+  m_text: "Armado com uma espada m\xE1gica e a sabedoria de um velho mentor, o her\xF3i
+    parte em uma jornada repleta de desafios e aliados inesperados.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1585,8 +1648,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 19.2
+  m_fontSizeBase: 19.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
